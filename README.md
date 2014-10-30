@@ -7,7 +7,7 @@ This is a **playground project** used while learning PhalconPHP years ago. The *
 
 Demo
 ------
-http://firststudentmedia.com (articles are from around February 2014)
+http://firststudentmedia.com (articles last updated around February 2014)
 
 What is it
 ===========
