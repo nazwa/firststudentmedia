@@ -1,0 +1,163 @@
+.clearfloat { clear: both; }
+.formBox { padding: 10px; }
+
+#footer { width: 500px; text-align: center; border-top: 1px solid silver; text-transform: uppercase; margin: 30px auto 0 auto; position: relative;  }
+#footer a { margin: 15px; display: inline-block; color: black; text-decoration: none; font-family: 'Yanone Kaffeesatz', 'Tahoma'; font-size: 15px; letter-spacing: 1px;  }
+
+body { background: url('/img/outside.png') repeat;  }
+
+
+
+
+.button.secondary.active {
+    background-color: #d0d0d0;
+}
+               
+.item { width: 250px;  margin: 5px; overflow: hidden; float: left; cursor: pointer; }                               
+.item h2 { font-weight: bold; font-size: 1em; margin: 0px;}
+.item p {  font-size: 0.9em; }
+
+.reveal-modal-bg {
+    z-index: 290;
+}
+
+.reveal-modal {
+    z-index: 300;  
+    background: url('/img/inside.png') repeat-y center center; 
+}
+                                                         
+.headingNews , .News, #inner_1 a{ color: #00A8E8 ;}
+.headingSport , .Sport, #inner_2 a { color: #ef2b38;}
+.headingFeatures, .Features, #inner_3 a { color: #449f52; }
+.headingReviews, .Reviews, #inner_4 a { color: #f57a36; }
+.headingLifestyle , .Lifestyle, #inner_5 a{ color: #ed4e91; }
+
+.All { color: #000000; }
+.News { color: #00A8E8 ;}
+.Sport { color: #ef2b38;}
+.Features { color: #449f52; }
+.Reviews { color: #f57a36; }
+.Lifestyle{ color: #ed4e91; }
+  
+  
+
+.moar { display: block; font-size: 20px; text-align: center; padding: 10px 50px 10px 50px; background: #FFC0FF; cursor: pointer; }
+                  
+.infoPicture {  max-width: 100px; margin-right: 10px; }
+.infoLink {   }
+.infoRating { float: left; }
+.infoDate { float: left; margin:0 15px;  }
+.infoLeft { float: left; }
+.infoRight { float: left; }
+
+
+img.loader { width: 32px; margin: 59px 0 59px 0;  }           
+.linkMore { display: none; }
+   
+
+.tag { position: absolute; left: 0px; width: 40px; height: 150px; background: white;  z-index: 50; display: none; }
+        
+
+/*.innerBox { position: absolute; left: 40px;  }*/
+
+
+.listGroupContainer { height: 150px; padding-right: 40px; padding-left: 40px; overflow: hidden;  }
+
+.spacer.line {
+    width: 100%;   
+    height: 1px;
+    background: url('/img/spacer.png') center center no-repeat;
+    margin: 10px auto 10px auto;  
+}
+
+                                                                                                                              
+        
+.isotope .isotope-item {                            
+  /* change duration value to whatever you like */
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+                                 
+/**** Isotope filtering ****/
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}             
+
+
+#contentwrapper{
+    float: left;
+    width: 100%;
+    padding-top: 35px;
+}
+        
+#inside{
+    margin-left: 200px; /*Set left margin to LeftColumnWidth*/  
+}
+
+#leftcolumn{
+    position: fixed;
+    top: 35px;
+    left: 10px;
+    width: 190px;    
+    padding-left: 0;
+}
+
+#leftcolumn .filters li {
+    width: auto;       
+    list-style: none;       
+    
+}
+
+#leftcolumn .filters a {
+    display: block;          
+    margin: 5px;             
+    padding: 5px 5px 5px 15px;   
+    border: 1px solid silver;   
+    font-weight: bold;
+    cursor: pointer;
+    transition: padding 0.3s ;
+}
+
+#leftcolumn .filters a:hover, #leftcolumn .filters a.active {
+    padding-left: 30px;
+}
+
+.box-logo {
+    text-align: center;
+}
+
+.box-logo img {
+    width:  100px;
+    height: 191px;
+}
+
+.box-about p {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.1em;
+    color: #00a8e8;
+}
+
+#oldItems {
+    display: none; 
+}
+
+.showOld {
+    text-align: center;
+}

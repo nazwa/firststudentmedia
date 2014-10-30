@@ -1,0 +1,11 @@
+app/cache/
+*.$wrk
+web.config
+public/mu-58c19822-ea4d2bb5-98bbae10-1a8a8377.txt
+public/production/final.js
+public/production/styles.css
+public/wincache.php
+.phalcon/migration-version
+app/config/config.php
+var/cache/*.php
+var/cache/
